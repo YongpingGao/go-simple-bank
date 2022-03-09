@@ -8,6 +8,7 @@ import (
 )
 
 func TestTransferTx(t *testing.T) {
+	t.Skip("Skipping not finished test")
 	store := NewStore(testDB)
 
 	account1 := createRandomAccount(t)
